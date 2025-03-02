@@ -20,8 +20,14 @@
 
             <p class="footer-login-text">Or continue with</p>
             <div class="google-facebook-button-container">
-                <button type="button" class="google-facebook-button">Google</button>
-                <button type="button" class="google-facebook-button">Facebook</button>
+                <a href="#" class="google-facebook-button">
+                    <img src="{{asset("assets/image/google-logo.png")}}" width="30" height="30" class="me-2">
+                    Google
+                </a>
+                <a href="#" class="google-facebook-button">
+                    <img src="{{asset("assets/image/facebook-icon.png")}}" width="30" height="30" class="me-2">
+                    Facebook
+                </a>
             </div>
 
             <p class="footer-login-text">Not registered? <a href="#" class="footer-login-link">Sign Up now!</a></p>
