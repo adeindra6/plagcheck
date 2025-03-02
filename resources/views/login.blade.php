@@ -16,7 +16,7 @@
             <input type="text" placeholder="Enter to your email" id="email" name="email" class="login-input">
             <input type="password" placeholder="Password" id="password" name="password" class="login-input">
             <a href="#" class="forgot-password-link">Forgot Password?</a>
-            <button type="submit" class="login-button">Login</button>
+            <a href="/dashboard" class="login-button">Login</a>
 
             <p class="footer-login-text">Or continue with</p>
             <div class="google-facebook-button-container">
