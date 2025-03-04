@@ -7,6 +7,15 @@ use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
+    public function login(Request $request)
+    {
+        if(Auth::check()) {
+            return redirect()->route('dashboard');
+        }
+
+        return view('login');
+    }
+
     public function loginProcess(Request $request)
     {
         $credentials = $request->validate([
