@@ -192,11 +192,30 @@
     width: 90vw;
     margin: auto;
     margin-top: 1.5rem;
-}
-
-.dashboard-content {
     border: 0.5px solid #E1E2E5;
     border-radius: 5px;
+}
+
+.new-submission-button-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.new-submission-button {
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+    border: 1.5px solid #2B656A;
+    background-color: #2B656A;
+    color: white;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 9.75px;
 }
 
 .dashboard-title {
@@ -217,4 +236,9 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 14.63px;
+}
+
+.submission-table {
+    border: 0.5px solid #E1E2E5;
+    border-radius: 5px;
 }
