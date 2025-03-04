@@ -15,31 +15,37 @@
 
     <div class="row dashboard-row">
 
-        <div class="col-md-6">
-            <p class="dashboard-title">Submission List</p>
-            <p class="dashboard-subtitle">Task status will refresh automatically</p>
-        </div>
+        <div class="col-md-12 table-content-col">
 
-        <div class="col-md-6 new-submission-button-col">
-            <button type="button" class="new-submission-button">
-                <img src="{{asset("assets/image/plus-icon.png")}}" width="45" height="40">New Submission
-            </button>
-        </div>
+            <div class="col-md-6">
+                <p class="dashboard-title">Submission List</p>
+                <p class="dashboard-subtitle">Task status will refresh automatically</p>
+            </div>
 
-        <div class="col-md-12 submission-table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Word Count</th>
-                        <th>Similarity</th>
-                        <th>AI Writing</th>
-                        <th>Status</th>
-                        <th>Start at</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-            </table>
+            <div class="col-md-6 new-submission-button-col">
+                <button type="button" class="new-submission-button">
+                    <img src="{{asset("assets/image/plus-icon.png")}}" width="45" height="40">New Submission
+                </button>
+            </div>
+
+            <!--
+                <div class="col-md-12">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Word Count</th>
+                            <th>Similarity</th>
+                            <th>AI Writing</th>
+                            <th>Status</th>
+                            <th>Start at</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            -->
+
         </div>
 
     </div>

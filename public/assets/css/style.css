@@ -196,10 +196,13 @@
     border-radius: 5px;
 }
 
+.table-content-col {
+    display: flex;
+}
+
 .new-submission-button-col {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
 }
 
 .new-submission-button {
@@ -213,7 +216,7 @@
     height: 3rem;
     border-radius: 10px;
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 9.75px;
 }

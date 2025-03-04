@@ -33,4 +33,10 @@ class UserController extends Controller
             'invalid_credential' => 'Email or Password is Incorrect',
         ])->onlyInput('email');
     }
+
+    public function logout(Request $request)
+    {
+        Auth::logout();
+        return redirect()->route('login');
+    }
 }
