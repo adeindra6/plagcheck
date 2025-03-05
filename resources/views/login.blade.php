@@ -24,7 +24,7 @@
                 <a href="#" class="forgot-password-link">Forgot Password?</a>
                 <input type="submit" name="submit" id="submit" class="login-button" value="Login">
 
-                <div>{{ $errors->first('invalid_credential') }}</div>
+                <div class="login-error-msg">{{ $errors->first('invalid_credential') }}</div>
 
                 <p class="footer-login-text">Or continue with</p>
                 <div class="google-facebook-button-container">
@@ -48,7 +48,7 @@
         function togglePassword() {
             var passwordInput = document.getElementById("password");
             var eyeIcon = document.getElementById("eyeIcon");
-            
+
             if (passwordInput.type === "password") {
                 passwordInput.type = "text";
                 eyeIcon.classList.remove("fa-eye-slash");

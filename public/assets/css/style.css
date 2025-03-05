@@ -112,6 +112,11 @@
     text-decoration: none;
 }
 
+.login-error-msg {
+    padding-top: 10px;
+    color: red;
+}
+
 .google-facebook-button-container {
     display: flex;
     align-items: center;
@@ -192,6 +197,18 @@
     border-radius: 50%;
 }
 
+.dropdown-button {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.dropdown-profile {
+    position: absolute;
+    top: 6vh;
+    left: 89vw;
+}
+
 .dashboard-row {
     height: 90vh;
     width: 90vw;
@@ -207,13 +224,13 @@
   }
 
 .dashboard-content {
-    height: auto !important;  
+    height: auto !important;
     border: 0.5px solid #E1E2E5;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     min-height: fit-content;
-    overflow: visible; 
+    overflow: visible;
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
     flex-grow: 0;
@@ -326,7 +343,7 @@
 }
 
 .pagination button {
-    
+
     border: 1px solid #2b656a00;
     background-color: white;
     cursor: pointer;

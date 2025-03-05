@@ -6,10 +6,13 @@
         <p class="profile-name">
             <img src="{{asset("assets/image/sample-profile-photo.png")}}" class="profile-pic">
             Angelica Agata
-            <a href="#">
+            <button type="button" class="dropdown-button" onclick="toggleDropdown()">
                 <img src="{{asset("assets/image/dropdown-icon.png")}}" width="15" height="10" class="ms-2">
-            </a>
+            </button>
         </p>
+        <a href="{{route("logout")}}" class="btn btn-light dropdown-profile" style="display: none;" type="button" id="logout-button">
+            Logout
+        </a>
     </div>
 
     <div class="row dashboard-row">
@@ -115,6 +118,26 @@
                  </div>
             </div>
         </div>
-        tes
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="text-align: center">copyright {{ date("Y") }} - <strong>PlagCheck.id</strong></p>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script>
+        function toggleDropdown() {
+            let logout = document.getElementById("logout-button");
+
+            if(logout.style.display == "none") {
+                logout.style.display = "block";
+            }
+            else {
+                logout.style.display = "none";
+            }
+        }
+    </script>
 @stop
