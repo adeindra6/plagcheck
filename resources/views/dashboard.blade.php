@@ -74,7 +74,7 @@
                                     <td>INFERENSI TERHAD..</td>
                                     <td>3601</td>
                                     <td class="success">24% <a href="{{ route("downloadFile", "similarity_3") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
-                                    <td class="success">3% <a href="{{ route("downloadFile", "ai_3") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+                                    <td class="success">33% <a href="{{ route("downloadFile", "ai_3") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
                                     <td class="status-success">Success</td>
                                     <td>25/01/2025</td>
                                     <td>
