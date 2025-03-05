@@ -171,18 +171,18 @@
 
 .profile-name {
     position: absolute;
-    top: 1.5vh;
+    top: 2.5vh;
     left: 80vw;
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 14.63px;
     color: white;
 }
 
 .profile-pic {
-    width: 64px;
-    height: 64px;
+    width: 40px;
+    height: 40px;
     margin-right: 0.5rem;
     border-radius: 50%;
 }
@@ -192,33 +192,29 @@
     width: 90vw;
     margin: auto;
     margin-top: 1.5rem;
-    border: 0.5px solid #E1E2E5;
-    border-radius: 5px;
-}
-
-.table-content-col {
-    display: flex;
+    justify-content: space-between; /* Membuat konten terpisah kiri-kanan */
 }
 
 .new-submission-button-col {
     display: flex;
-    justify-content: flex-end;
-}
+    justify-content: flex-end; /* Paksa konten ke kanan */
+    padding-right: 15px; /* Optional: memberi jarak dari tepi */
+  }
 
-.new-submission-button {
-    position: relative;
-    top: 2rem;
-    right: 2rem;
-    border: 1.5px solid #2B656A;
-    background-color: #2B656A;
-    color: white;
-    width: 12rem;
-    height: 3rem;
-    border-radius: 10px;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 9.75px;
+.dashboard-content {
+    height: auto !important;  
+    border: 0.5px solid #E1E2E5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    overflow: visible; 
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    flex-grow: 0;
+    div:empty {
+        display: none;
+    }
 }
 
 .dashboard-title {
@@ -226,22 +222,114 @@
     top: 2rem;
     left: 2rem;
     font-family: "Montserrat";
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 24.38px;
 }
 
 .dashboard-subtitle {
     position: relative;
-    top: 2rem;
+    top: 1.5rem;
     left: 2rem;
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 14.63px;
 }
 
+.new-submission-button{
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+    background-color: #2B656A;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hr{
+    border-top: 1px solid rgb(67, 67, 67);
+    margin-top: 30px;
+    right: 2rem;
+}
+.hr-bottom{
+    border-top: 1px solid rgb(67, 67, 67);
+    right: 2rem;
+}
+
 .submission-table {
-    border: 0.5px solid #E1E2E5;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.submission-table th, .submission-table td {
+    padding: 12px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dddddd00;
+}
+.submission-table th {
+    background-color: #f2f2f200;
+    text-align: center;
+}
+.submission-table td {
+    text-align: center;
+}
+.success {
+    color: #2da79c;
+}
+.error, .unsupported, .status-failed {
+    color: rgb(190, 6, 6);
+}
+.status-success {
+    color: #2da79c;
+    font-weight: bold;
+}
+.detail-btn, .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.detail-btn {
+    border-radius: 5px;
+    color: #2B656A;
+    border: 2px solid #2B656A;
+    background-color: transparent;
+}
+.delete-btn {
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #D9534F;
+    border: 2px solid #D9534F;
+    background-color: transparent;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.pagination button {
+    
+    border: 1px solid #2b656a00;
+    background-color: white;
+    cursor: pointer;
     border-radius: 5px;
 }
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
