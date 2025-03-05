@@ -49,8 +49,8 @@
                                 <tr>
                                     <td>THE INFLUENCE OF ..</td>
                                     <td>6095</td>
-                                    <td class="success">27% <i class="fa fa-download" aria-hidden="true"></i></td>
-                                    <td class="success">66% <i class="fa fa-download" aria-hidden="true"></i></td>
+                                    <td class="success">27% <a href="{{ route("downloadFile", "similarity_1") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+                                    <td class="success">66% <a href="{{ route("downloadFile", "ai_1") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
                                     <td class="status-success">Success</td>
                                     <td>22/02/2025</td>
                                     <td>
@@ -73,8 +73,8 @@
                                 <tr>
                                     <td>INFERENSI TERHAD..</td>
                                     <td>3601</td>
-                                    <td class="success">24% <i class="fa fa-download" aria-hidden="true"></i></td>
-                                    <td class="success">3% <i class="fa fa-download" aria-hidden="true"></i></td>
+                                    <td class="success">24% <a href="{{ route("downloadFile", "similarity_3") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+                                    <td class="success">3% <a href="{{ route("downloadFile", "ai_3") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
                                     <td class="status-success">Success</td>
                                     <td>25/01/2025</td>
                                     <td>
@@ -85,7 +85,7 @@
                                 <tr>
                                     <td>Research paper for..</td>
                                     <td>2380</td>
-                                    <td class="success">25% <i class="fa fa-download" aria-hidden="true"></i></td>
+                                    <td class="success">25% <a href="{{ route("downloadFile", "similarity_4") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
                                     <td class="unsupported">Unsupported</td>
                                     <td class="status-success">Success</td>
                                     <td>01/02/2025</td>
@@ -97,7 +97,7 @@
                                 <tr>
                                     <td>Penggunaan Teknol..</td>
                                     <td>3464</td>
-                                    <td class="success">27% <i class="fa fa-download" aria-hidden="true"></i></td>
+                                    <td class="success">27% <a href="{{ route("downloadFile", "similarity_5") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
                                     <td class="unsupported">Unsupported</td>
                                     <td class="status-success">Success</td>
                                     <td>11/01/2025</td>

@@ -16,4 +16,14 @@ class DashboardController extends Controller
             'invalid_credential' => 'You need to login first',
         ]);
     }
+
+    public function downloadFile($filename) {
+        $file = public_path() . "/files/" . $filename . ".pdf";
+
+        $headers = array(
+            'Content-Type: application/pdf',
+        );
+
+        return response()->download($file, $filename . ".pdf", $headers);
+    }
 }
