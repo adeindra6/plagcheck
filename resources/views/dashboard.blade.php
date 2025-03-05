@@ -83,9 +83,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Research paper for..</td>
-                                    <td>2380</td>
-                                    <td class="success">25% <a href="{{ route("downloadFile", "similarity_4") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+                                    <td>Object Detection..</td>
+                                    <td>2564</td>
+                                    <td class="success">15% <a href="{{ route("downloadFile", "similarity_4") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
                                     <td class="unsupported">Unsupported</td>
                                     <td class="status-success">Success</td>
                                     <td>01/02/2025</td>
@@ -95,9 +95,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Penggunaan Teknol..</td>
-                                    <td>3464</td>
-                                    <td class="success">27% <a href="{{ route("downloadFile", "similarity_5") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+                                    <td>Implementation Of Deep..</td>
+                                    <td>3867</td>
+                                    <td class="success">33% <a href="{{ route("downloadFile", "similarity_5") }}" style="color: inherit"><i class="fa fa-download" aria-hidden="true"></i></a></td>
                                     <td class="unsupported">Unsupported</td>
                                     <td class="status-success">Success</td>
                                     <td>11/01/2025</td>
