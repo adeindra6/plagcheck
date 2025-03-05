@@ -83,9 +83,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Research paper for..</td>
-                                    <td>2380</td>
-                                    <td class="success">25% <i class="fa fa-download" aria-hidden="true"></i></td>
+                                    <td>Object Detection..</td>
+                                    <td>2564</td>
+                                    <td class="success">15% <i class="fa fa-download" aria-hidden="true"></i></td>
                                     <td class="unsupported">Unsupported</td>
                                     <td class="status-success">Success</td>
                                     <td>01/02/2025</td>
@@ -95,9 +95,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Penggunaan Teknol..</td>
-                                    <td>3464</td>
-                                    <td class="success">27% <i class="fa fa-download" aria-hidden="true"></i></td>
+                                    <td>Implementation Of Deep..</td>
+                                    <td>3867</td>
+                                    <td class="success">33% <i class="fa fa-download" aria-hidden="true"></i></td>
                                     <td class="unsupported">Unsupported</td>
                                     <td class="status-success">Success</td>
                                     <td>11/01/2025</td>

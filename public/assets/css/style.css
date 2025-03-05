@@ -172,7 +172,7 @@
     top: 1rem;
     left: 3rem;
     font-family: "Montserrat";
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     line-height: 60.95px;
     letter-spacing: -1px;
@@ -185,7 +185,7 @@
     left: 80vw;
     font-family: "Montserrat";
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 14.63px;
     color: white;
 }
@@ -255,7 +255,7 @@
     left: 2rem;
     font-family: "Montserrat";
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 450;
     line-height: 14.63px;
 }
 
@@ -313,7 +313,7 @@
 }
 .status-success {
     color: #2da79c;
-    font-weight: bold;
+    font-weight: 450;
 }
 .detail-btn, .delete-btn {
     padding: 5px 10px;
@@ -340,6 +340,7 @@
     justify-content: center;
     align-items: center;
     gap: 3px;
+    padding-top: 10px;
 }
 
 .pagination button {
@@ -355,3 +356,6 @@
     cursor: not-allowed;
 }
 
+.footer{
+    padding-top: 10px;
+}
