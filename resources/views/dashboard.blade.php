@@ -5,7 +5,7 @@
         <p class="plagcheck-header">plagcheck</p>
         <p class="profile-name">
             <img src="{{asset("assets/image/sample-profile-photo.png")}}" class="profile-pic">
-            Angelica Agata
+            Admin
             <button type="button" class="dropdown-button" onclick="toggleDropdown()">
                 <img src="{{asset("assets/image/dropdown-icon.png")}}" width="15" height="10" class="ms-2">
             </button>
